@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mina Hotel Goris</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar" id="top">
+
+  <a href="#top" class="logo">
+    <img src="./assets/logo.png" alt="Hotel logo">
+  </a>
+
+  <nav class="nav-links">
+    <a href="#about">About</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#services">Services</a>
+    <a href="#famous-places">Famous Places</a>
+  </nav>
+
+    <div class="burger" id="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>WELCOME TO MINA HOTEL</h1>
+    
+
+<!--  HERO -- RESERVATION -->
+
+    <div class="booking-bar">
+      
+      <div class="booking-field">
+        <label>Check-in</label>
+        <input type="date" value="2026-02-28">
+      </div>
+
+      <div class="booking-field">
+        <label>Check-out</label>
+        <input type="date" value="2026-03-01">
+      </div>
+
+      <div class="booking-field guests">
+        <label>Guests</label>
+        <div class="guests-input" id="guestsToggle">
+          <span id="guestsText">2 adults, 0 children</span>
+        </div>
+
+        <div class="guests-dropdown" id="guestsDropdown">
+          <div class="row">
+            <span>Adults</span>
+            <input type="number" id="adults" min="1" value="2">
+          </div>
+          <div class="row">
+            <span>Children</span>
+            <input type="number" id="children" min="0" value="0">
+          </div>
+          <button id="applyGuests">Apply</button>
+        </div>
+      </div>
+
+      <button class="book-btn">Book online</button>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="about-container">
+
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        Founded in 2010, our hotel has become a recognized destination for guests seeking comfort and quality service. Over the years, we have had the honor of welcoming many distinguished visitors, including the Belgian Royal Family as well as numerous well-known figures from Armenian show business.</p>
+
+<p>The hotel offers 71 comfortable rooms, designed to provide a relaxing stay for both leisure and business travelers. Guests can also enjoy our dining options, which include a traditional restaurant serving local cuisine and a sushi bar.</p>
+
+<p>The hotel was founded by Jora Aleksanyan, an entrepreneur also known as the owner of the famous Khndzoresk Swinging Bridge in Khndzoresk, one of Armenia’s notable tourist attractions.</p>
+
+<p id="lastp">Our goal is simple: to provide warm hospitality, quality service, and a memorable experience for every guest who stays with us.</p>
+      
+    </div>
+
+    <div class="about-image">
+      <img src="./assets/aboutus.jpg" alt="Hotel image">
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ROOMS -->
+<section id="rooms">
+  <h2>Rooms</h2>
+  <div class="room-container">
+    <div class="rooms">
+<h3>Single Room</h3>
+<img src="assets/single.jpg" alt="SingleRoom">
+<p class="rooms-price">21.000 AMD / night</p>
+    </div>
+    <div class="rooms">
+  <h3>Double Room</h3>
+<img src="assets/double.jpg" alt="DoubleRoom">
+<p class="rooms-price">30.000 AMD / night</p>    
+    </div>
+    <div class="rooms">
+      <h3>Twin Room</h3>
+<img src="assets/twin.jpg" alt="TwinRoom">
+<p class="rooms-price">30.000 AMD / night</p> 
+    </div>
+    <div class="rooms">
+      <h3>Triple Room</h3>
+<img src="assets/triple.jpg" alt="TripleRoom">
+<p class="rooms-price">40.000 AMD / night</p> 
+    </div>
+    <div class="rooms">
+          <h3>Family Room</h3>
+<img src="assets/family.jpg" alt="FamilyRoom">
+<p class="rooms-price">50.000 AMD / night</p> 
+    </div>
+  </div>
+  
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2>Services</h2>
+
+  <div class="services-container">
+
+    <div class="service">
+      <img src="assets/grotto.jpg" alt="Restaurany and bar">
+      <div class="card-service">
+      <h4>Grotto Bar and Restaurant</h4>
+      <p>Grotto Restaurant and Bar offers traditional Armenian dishes as well as a selection of fresh sushi.</p>
+    
+    </div>
+    </div>
+
+
+    <div class="service">
+      
+      <div class="card-service">
+      <h4>Transport Service</h4>
+      <p>Transport buses for guests and groups.</p>
+    </div>
+    <img src="assets/bus.jpg" alt="Transport Service">
+    </div>
+
+  </div>
+</section>
+
+<!-- FAMOUS PLACES -->
+<section id="famous-places" >
+<h2>Famous Places</h2>
+<div class="famous-places-container">
+<div class="f-p-card">
+  <img class="f-p-img" src="assets/khndzoresk.jpg" alt="Khndzoresk">
+  <div class="f-p-text">
+    <h4>Khndzoresk Swinging Bridge</h4>
+    <p>The Swinging bridge is located in the village of Khndzoresk in the Syunik region. The bridge, which connects the two “banks” of Khndzoresk – the Old and New, was put into operation in June 2012.The bridge has a length of 160 meters, a height of 63 meters, and weighs 14 tons. Approximately 700 people of average weight can simultaneously cross the bridge. From the bridge, there is a breathtaking view of the gorge. Not only can you see the four churches of Khndzoresk from the bridge, but also the famous “Nine Children” source are clearly visible.</p>
+  </div>
+</div>
+
+<div class="f-p-card">
+  <div class="f-p-text">
+    <h4>Tatev Monastery</h4>
+    <p>The Tatev Monastery (Armenian: Տաթևի վանք, romanized: Tat'evi vank') is a 9th-century Armenian Apostolic Christian monastery located on a large basalt plateau near the village of Tatev in the Syunik Province in southeastern Armenia. The term "Tatev" usually refers to the monastery. The monastic ensemble stands on the edge of a deep gorge of the Vorotan River. Tatev is known as the bishopric seat of Syunik and played a significant role in the history of the region as a center of economic, political, spiritual and cultural activity.</p>
+  </div>
+  <img class="f-p-img" src="assets/TatevMonastery.jpg" alt="Tatev Monastery">
+</div>
+
+<div class="f-p-card">
+  <img class="f-p-img" src="assets/WingsofTatev.jpg" alt="Wings of Tatev">
+  <div class="f-p-text">
+    <h4>Wings of Tatev</h4>
+    <p>Wings of Tatev is a 5.7 km cableway between Halidzor and the Tatev monastery in Armenia. It is the longest reversible aerial tramway built in only one section, and holds the record for Longest non-stop double track cable car. Construction was finished on 16 October 2010.</p>
+  </div>
+</div>
+
+<div class="f-p-card">
+  <div class="f-p-text">
+    <h4>Shaki Waterfall</h4>
+    <p>Shaki Waterfall is a waterfall in Armenia, with a height of 18 m. It is located in Syunik Province. The Shaki Waterfall is situated 6 km from the town of Sisian. On the left side of the river Vorotan's gorge, basalt lava flows have solidified to form a ledge 18 meters high from which the waterfall cascades down.</p>
+  </div>
+  <img class="f-p-img" src="assets/shaki.jpg" alt="Shaki Waterfall">
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+  <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-item">
+      <a href="https://maps.app.goo.gl/d4z4WHjtygGeka2aA">Goris, Mashtots 169</a>
+       
+    </div>
+
+    <div class="footer-item">
+        <a href="">+374 43 00 44 22</a>
+    </div>
+
+    <div class="footer-item">
+          <a href="https://www.instagram.com/minahotelgoris/">Instagram</a>
+    </div>
+
+    <div class="footer-item">
+            <a href="">Facebook</a>
+    </div>
+
+    
+    <div class="footer-item">
+            <a href="mailto:hotelminagoris@gmail.com">hotelminagoris@gmail.com</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Mina Hotel. All rights reserved.
+  </div>
+</footer>
+  
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
